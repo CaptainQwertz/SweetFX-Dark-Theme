@@ -1,0 +1,804 @@
+p {
+    margin: 5px 0px;
+}
+
+.searchdiv {
+    background-color: #333333;
+    border: 1px solid #777777;
+    padding: 2px;
+    width: 140px;
+}
+
+.searchdiv ul.sresults {
+    font-size: 80%;
+    padding-left: 3px;
+}
+
+.searchdiv ul.sresults li {
+    border-top: 1px solid #999999;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logoblock {
+    background-image: url("http://sfx.thelazy.net/static/css/images/fancy.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 38px;
+    margin-left: -10px;
+    margin-top: -9px;
+    padding-left: 46px;
+}
+
+#logoblock #logotext {
+    color: #dddddd;
+    font-size: 130%;
+    padding-top: 7px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    color: #eee;
+}
+
+.stitle {
+    color: #cccccc;
+}
+
+.title {
+    color: #cccccc;
+}
+
+.newpost .title {
+    font-weight: bold;
+}
+
+div#notestitle {
+    color: #cccccc;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+h2 {
+    background-color: #222222;
+    color: #cacaca;
+    //display: inherit;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 0;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: #333333;
+    background-position: 75% 50%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.infoline a {
+    color: #99ccff;
+}
+
+.infoline a:hover {
+    color: #3399ff;
+}
+
+.bbtext a {
+    color: #99ccff;
+}
+
+.bbtext a:hover {
+    color: #3399ff;
+}
+
+div#top ul li a:hover {
+    color: #999999;
+    text-decoration: none;
+}
+
+li.active {
+    font-size: 120%;
+    font-weight: 700;
+}
+
+#sidemenu {
+    float: left;
+    overflow: auto;
+    padding: 15px;
+    width: 150px;
+}
+
+#sidemenu #isearch {
+    width: 100px;
+}
+
+div#top {
+    background-color: #222;
+    border-bottom: 2px solid transparent;
+    padding: 11px;
+}
+
+div#top ul {
+    margin-left: 2em;
+    text-transform: capitalize;
+}
+
+div#top ul li a {
+    padding: 10px;
+    transition: background-color 0.1s ease 0s, color 0.1s ease 0s;
+}
+
+table.list td, table.list th {
+    padding: 4px 7px;
+}
+
+td {
+    color: #cacaca;
+}
+
+th {
+    color: #cacaca;
+}
+
+ul.errorlist li {
+    color: #ff4a48;
+    list-style: outside none none;
+}
+
+form table tr:first-child {
+    border: medium none;
+}
+
+form table tr {
+    border-top: 0px solid #000000;
+}
+
+li {
+    margin-left: 30px;
+}
+
+.important {
+    color: red;
+}
+
+#randgame {
+    padding: 1em;
+}
+
+ul.list {
+    display: inline;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul.list li {
+    list-style: outside none none;
+    margin-left: 0px;
+    padding-bottom: 2px;
+}
+
+ul.horizmenu {
+    display: inline-block;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul.horizmenu li {
+    display: inline;
+    list-style: outside none none;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 7px 15px;
+}
+
+#noteswrap #notes {
+    background-color: #333333;
+    border: 2px solid #949494;
+    display: inline-block;
+    transition: border .2s ease;
+    //padding: 8px;
+}
+
+#noteswrap #notes:hover {
+    border: 2px solid #aaa;
+}
+
+.button, div#editlink a {
+    background-color: #444444;
+    border: 2px solid #909090;
+    color: #cccccc;
+    padding: 7px;
+    transition: background-color .1s ease 0s, color .1s ease;
+}
+
+#toggleshow {
+    cursor: default;
+}
+
+.button:hover {
+    background-color: #222222;
+    color: inherit;
+    text-decoration: none;
+}
+
+div#presettextwrapper {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(111, 111, 111, 0);
+    height: 60%;
+    width: 90%;
+    padding-top: 5px;
+}
+
+div#presettextwrapper div#presettextdata {
+    background-color: #333333;
+    border: 2px solid #797979;
+    display: none;
+    font-family: monospace;
+    height: 300px;
+    overflow: auto;
+    padding: 5px;
+    white-space: pre;
+}
+
+div#main {
+    background-color: rgba(255, 255, 255, 0);
+    border-left: 0px solid #838383;
+    border-right: 0px solid #838383;
+    margin-left: 154px;
+    margin-right: 154px;
+    padding: 2em;
+}
+
+.presetimageblock {
+    float: left;
+    margin: 0;
+    padding: 0 20px 20px 0;
+    width: 310px;
+}
+
+.imagethumb {
+    border: 2px solid #757575;
+    transition: border .1s ease, box-shadow .1s ease, .2s transform ease;
+    overflow: hidden;
+}
+
+.imagethumb img {
+    display: block;
+}
+
+.imagethumb:hover {
+    border: 2px solid #ccc;
+    transform: scale(1.05)
+}
+
+.imagethumb .imageinfo {
+    height: 40px;
+    margin-top: -40px;
+    position: relative;
+    top: 16px;
+}
+
+.imagethumb .imageinfo .imagedetails {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 1px solid #aaa;
+    color: #000000;
+    display: inline-block;
+    opacity: 0;
+    padding: 3px;
+    width: 100%;
+    transition: .2s opacity ease;
+}
+
+.imagethumb .imageinfo .imgsize {
+    float: right;
+    padding-right: 7px;
+}
+
+.imagethumb .imageinfo .added {
+    float: left;
+    padding-left: 3px;
+}
+
+#infobox {
+    background-color: #222222;
+    color: #cacaca;
+    display: inherit;
+    padding: 1px 10px 10px 20px;
+}
+
+#infobox .infoline {
+    margin: 2px;
+}
+
+.sfxstat {
+    background-color: #333;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 2px 0px 0px;
+    font-size: 130%;
+    padding: 7px 5px 5px;
+}
+
+#sfxon {
+    border-left-width: 2px;
+    padding-left: 7px;
+}
+
+#sfxoff {
+    border-right-width: 2px;
+    padding-right: 7px;
+}
+
+h3 {
+    color: #cacaca;
+    margin: 0;
+}
+
+#breads {
+    border-bottom: 2px solid #dadada;
+    margin-bottom: 4px;
+    padding-bottom: 3px;
+}
+
+#presetdetail input {
+    background-color: #444;
+    border: 2px solid #aaa;
+    margin-top: 5px;
+    position: relative;
+    left: 95.5%;
+    transition: background-color .1s ease;
+}
+
+#presetdetail input:hover {
+    background-color: #222;
+}
+
+#favorites input {
+    border: 2px solid #ccc;
+    transition: background-color .1s ease;
+    background-color: #333;
+}
+
+#favorites input:hover {
+    background-color: #222;
+}
+
+input, textarea, select {
+    background-color: #444444;
+    border: 1px solid #aaaaaa;
+    //box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.69);
+    color: #cacaca;
+    padding-left: 2px;
+    transition: background-color 0.1s ease 0s;
+}
+
+.formrequired input, .formrequired textarea, .formrequired select {
+    background-color: #4a4a4a;
+    border: 1px solid #8c8c8c;
+}
+
+div#editlink {
+    float: right;
+    padding: 1em;
+}
+
+div#editlink a {
+    margin: inherit;
+}
+
+div#editlink a:hover {
+    background-color: #222;
+}
+
+div.buttoner {
+    margin-bottom: 14px;
+    padding: 18px 0 20px 0;
+}
+
+#commentwrap {
+    clear: both;
+    margin-left: -10px;
+    width: 700px;
+}
+
+#commentwrap h2 {
+    background-color: #333;
+    padding-bottom: 3px;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#commentwrap p {
+    margin-top: 5px;
+}
+
+p {
+    color: #cacaca;
+}
+
+#commentwrap #commentform {
+    padding: 0 0 15px 15px;
+    width: 340px;
+}
+
+#commentform textarea:focus {
+    border: 1px solid #aaa;
+}
+
+#commentwrap #commentform textarea {
+    color: #cacaca;
+    height: 150px;
+    width: 500px;
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+#commentwrap .button {
+    margin-top: 10px;
+    position: relative;
+    left: 0;
+}
+
+#commentwrap #commentslist {
+    float: right;
+    width: 340px;
+    position: relative;
+    left: 160px;
+    z-index: -1;
+}
+
+div#commentslist {
+   
+}
+
+#commentwrap #commentslist .comment {
+    background-color: #393939;
+    border: 1px solid #aaa;
+    margin: 30px;
+    width: 330px;
+}
+
+.comment {
+    color: #cacaca;
+}
+
+#commentwrap #commentslist .comment .commentcreator {
+    float: left;
+    padding: 5px;
+}
+
+#commentwrap #commentslist .comment .commentcreated {
+    float: right;
+    padding: 5px;
+}
+
+#commentwrap #commentslist .comment .commentcontent {
+    /*border-top: 1px solid #888;*/
+    clear: both;
+    margin-top: 25px;
+    overflow: auto;
+    padding: 5px;
+    width: 320px;
+    background-color: #444;
+}
+
+.comparecontainer {
+    /*border-right: 1px solid rgba(255, 255, 255, 0.5);*/
+    display: none;
+    overflow: hidden;
+    width: 400px;
+}
+
+#breads li {
+    font-weight: bold;
+    padding: 15px 0px 15px 7px;
+}
+
+.bb_preset, .bb_game {
+    background-color: #555;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.catdownloads thead {
+    text-align: left;
+}
+
+#isearch:focus {
+    border: 1px solid #ccc;
+}
+
+.forumtable {
+    border-collapse: collapse;
+    border: 2px solid #444;
+    width: 100%;
+}
+
+.forumtable thead {
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 700;
+}
+
+.forumtable td {
+    border-bottom: medium none;
+    padding: 3px;
+}
+
+.bbtext {
+    color: #cacaca;
+    line-height: 1.4em;
+    white-space: pre-line;
+    padding: 2px 0 4px 0;
+}
+
+.bbtext .bb_u {
+    text-decoration: underline;
+}
+
+.bbtext .bb_quote {
+    background-color: #393939;
+    border: 1px solid #cacaca;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+#notes .bbtext {
+    padding: 4px 10px 4px 10px;
+}
+
+.bbhelp {
+    background-color: #393939;
+    border: 2px solid #7a7a7a;
+    float: right;
+    height: 11em;
+    overflow: auto;
+    padding: 10px 5px 25px 5px;
+    width: 26%;
+}
+
+.threadname {
+    color: #cacaca;
+    font-size: 110%;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+}
+
+#writepost .defaultform table {
+    width: 50%;
+}
+
+#writepost textarea {
+    height: 10em;
+    margin: 4px;
+    padding: 5px;
+    width: 100%;
+}
+
+.newpost textarea {
+    height: 10em;
+    margin: 3px 0 5px 0;
+    padding: 5px;
+    width: 50%;
+}
+
+#forumposts .post {
+    background-color: #3c3c3c;
+    border: 2px solid #888;
+    margin-bottom: 9px;
+    overflow: hidden;
+}
+
+#forumposts .post .created {
+    font-size: 80%;
+}
+
+#forumposts .post .header {
+    background-color: rgba(102, 102, 102, 0);
+    border-bottom: 0px solid rgba(76, 112, 131, 0);
+}
+
+#forumposts .post .header div {
+    color: #cacaca;
+    display: inline;
+}
+
+.alerttext {
+    color: #ff2013;
+}
+
+#userdescription {
+    background-color: #464646;
+    border: 2px solid #7d7d7d;
+    margin: 10px 0 10px 0;
+    padding: 4px;
+    transition: border-color .2s ease;
+}
+
+#userdescription:hover {
+    border-color: #aaa;
+}
+
+#gamepresets .list tr:first-child {
+   text-align: left;
+}
+
+#adview, ul.usermenu {
+    float: right;
+}
+
+div#gamepresets, div#gamepresets table, #presetscreenshotdetail #screenshot {
+    font-size: 11pt;
+}
+
+#presetscreenshotdetail h3 {
+    display: none;
+}
+
+table.list, form table {
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+table.list tr:nth-child(2n), .forumtable tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.29);
+}
+
+form table td, form table th, #forumposts .post .text, #forumposts .post .header {
+    padding: 4px;
+    vertical-align: top;
+}
+
+.helptext, .bbtext .bb_i {
+    font-style: italic;
+}
+
+#paginator ul.pagination li, #noteswrap {
+    padding: 5px 0;
+}
+
+#screenshots .link, #footer {
+    clear: both;
+}
+
+.presetimageblock a, .imagethumb:hover .imagedetails {
+    display: inline-block;
+    opacity: 1;
+}
+
+.bold, .bbtext .bb_b {
+    font-weight: 700;
+}
+
+.bbhelp .forumtable {
+    border: none;
+}
+
+.newpost textarea:focus {
+    border: 1px solid #aaa;
+}
+
+#writepost, .newpost {
+    background-color: rgba(202, 202, 202, 0);
+    border-color: rgba(202, 202, 202, 0);
+    margin-top: 1em;
+}
+
+#breads {
+    border-bottom: 2px solid #cccccc;
+}
+
+#newthreadlink a {
+    background-color: #444;
+    transition: background-color .1s ease;
+    border: 2px solid #8e8c8c;
+    padding: 7px;
+}
+
+#newthreadlink a:hover {
+    background-color: #222;
+}
+
+#newthreadlink {
+    padding: 20px 0 0;
+}
+
+input, textarea {
+    color: #cacaca;
+    padding: 5px;
+}
+
+input:focus, textarea:focus {
+    background-color: #222;
+    border: 1px solid #cccccc;
+    color: #dddddd;
+    outline: medium none;
+}
+
+#forumposts .post .text {
+    padding-left: 10px;
+}
+
+.header div.user {
+    padding: 0px 5px;
+    font-weight: 700;
+}
+
+#forumposts .post .header {
+    background-color: #333;
+}
+
+.category {
+    margin-top: 10px;
+}
+
+.box {
+    background-color: #383838;
+    border: 1px solid #cacaca;
+    color: #cacaca;
+    padding: 6px;
+    border-radius: 0;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+#latestposts .entry {
+    border-top: 1px solid #cccccc;
+    padding: 6px 3px;
+}
+
+#latestposts .updated {
+    font-size: x-small;
+}
+
+#latestposts .updatedby {
+    font-size: small;
+    text-align: right;
+}
+
+#latestposts {
+    margin-top: 20px;
+}
+
+#rightside {
+    float: right;
+    margin-right: 8px;
+    padding: 0px 5px 5px;
+    width: 160px;
+}
+
+a:hover {
+    color: #aaaaaa;
+}
+
+#id_description, #id_settings_text {
+    width: 400px;
+    height: 250px;
+}
+
+#id_title {
+    width: 200px;
+}
+
+.edited {
+    float: right;
+    font-size: 10pt;
+    font-weight: 700;
+    padding-right: 5px;
+}
